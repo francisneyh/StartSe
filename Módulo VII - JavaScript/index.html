@@ -8,9 +8,23 @@
 </head>
 <body>
     <h1 id="t1">Introdução à Linguagem JavaScript</h1> 
-    <h2 id="t2"></h2> 
-     <script src="index.js">
+    <h2 id="t2"></h2>
 
-     </script>
+    <!-- <form id="formularioLogin" onsubmit="bemVindo(); return false">
+        <input type="text" id="nomeUsuario" placeholder="usuário">
+        <input type="password" placeholder="senha">
+        <button type="submit">Entrar</button>        
+    </form> -->
+    <p>Escolha uma cor de fundo:</p>
+    <select id="coresFundo" onChange="mudaCorFundo()">
+        <option value="white">Branco</option>
+        <option value="white">Azul</option>
+        <option value="white">Amarelo</option>
+        <option value="white">Vermelho</option>
+    </select>
+    
+    <button onclick="print()">Imprimir</button>
+
+    <script src="index.js"></script>
 </body>
 </html>
