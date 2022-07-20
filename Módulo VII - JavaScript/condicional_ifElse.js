@@ -36,7 +36,7 @@ if(nota1 === 0 || nota2 ===0) {// pelo menos 1 condicao deve ser verdadeira
 
 
 // EXEMPLO 1 COM CONDICIONAL E-AND-&&: 
-if(nota1 > 7 && nota2 >7) { // todas as condicoes devem ser verdadeiras
+if(nota1 > 7 && nota2 >7) { // Todas as condicoes devem ser verdadeiras
     console.log(`Voce teve um excelente desempenho.`)
 }else {
     console.log(`Voce teve um desempenho razoavel ou satisfatorio.`)
